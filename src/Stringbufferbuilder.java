@@ -18,6 +18,7 @@ public class Stringbufferbuilder
         s2.append("World");
         System.out.println(s2);
 
+
         //StringBuilder
         //It is same as String buffer, But it will allow more than one thread to enter inside or call same methods..
         //it is faster..

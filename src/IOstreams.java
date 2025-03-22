@@ -26,6 +26,8 @@ public class IOstreams
             //another method of writing in the file..
             String s="New java";
             byte []b = s.getBytes();
+            //When you call s.getBytes(), the method returns a new byte array (byte[]), and this array is created automatically by the getBytes()
+            // method. You simply assign the result to the byte[] variable b.
             for(byte c:b)
             {
                 fos.write(c);

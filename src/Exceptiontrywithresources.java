@@ -11,6 +11,7 @@ public class Exceptiontrywithresources
             int b = sc.nextInt();
             int c = sc.nextInt();
             System.out.println("write the logic calculation for the variables in the file");
+            //Fileinputstreams cannot read string so for that we can use buffer reader...and then to convert from stream to String we can use Inputstreamreader..
         }
 
     }

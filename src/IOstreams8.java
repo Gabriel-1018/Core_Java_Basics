@@ -31,15 +31,5 @@ public class IOstreams8
         //f.isHidden();//we can also see if the file is hidden or not..
 
         FileOutputStream fos = new FileOutputStream("E:\\Java\\Java notes\\Annotations.pdf");
-
-        //PrintStream ps = new PrintStream("");
-        //a PrintStream is a type of output stream used for writing data to a destination (such as a file or the console). It is a subclass of the OutputStream class and is part of the java.io package. It is specifically designed to print representations
-        // of various data types (such as strings, integers, and other objects) in a human-readable format.using printstream we can store only a string..
-
-
-        //InputStreamReader is a class in Java that acts as a bridge between byte streams and character streams. Specifically, it is used to convert an InputStream (a byte stream) into a character stream.
-        //In Java, byte streams (such as InputStream and OutputStream) are designed for reading and writing raw binary data, while character streams (such as Reader and Writer) are designed for reading and writing text data, which is more common in
-        // programs that deal with human-readable content (e.g., text files, network data).
-        //The InputStreamReader class provides an easy way to convert bytes into characters by applying a specific character encoding (e.g., UTF-8, ASCII).
-    }
+   }
 }

@@ -19,7 +19,7 @@ class lamdademo
 
 class lamdademo1
 {
-    public  void reverse(String s)
+    public void reverse(String s)
     {
         StringBuilder k= new StringBuilder(s);
         k.reverse();
@@ -37,7 +37,7 @@ public class Lamdaexpression3
     public static void main(String arg[])
     {
         mylamda5 f =System.out::println;//Since println is static method that is written using scope resolution"::"
-
+        //in the above line println method is assigned to the mylamda5 interface display method
         //System.out::println is a (method reference) that refers to the println method of the System.out object, which is of type PrintStream.
         //The method reference System.out::println is equivalent to the lambda expression
         //(String x) -> System.out.println(x);

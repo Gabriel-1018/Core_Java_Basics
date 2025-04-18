@@ -3,7 +3,6 @@
 class myarray<T>
 {
     T ary[]=(T[]) new Object[10];
-
     //we cannot create a object for the generic type t.so we are creating a object for object class then we are
     // typecasting to array..
 
@@ -27,7 +26,7 @@ class myarray<T>
 
 
 
-public class Generic2
+public class  Generic2
 {
     public static void main(String[] args)
     {

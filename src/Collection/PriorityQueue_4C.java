@@ -15,7 +15,7 @@ class com implements Comparator<Integer>
     }
 }
 
-public class PriorityQueue4
+public class PriorityQueue_4C
 {
     public static void main(String arg[])
     {

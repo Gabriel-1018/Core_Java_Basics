@@ -1,7 +1,7 @@
 package Collection;
 import java.util.List;
 
-public class LinkedList2
+public class LinkedList_2C
 {
     public static void main(String arg[])
     {

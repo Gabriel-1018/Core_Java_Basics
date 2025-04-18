@@ -1,6 +1,6 @@
 package Collection;
 
-public class ArrayDeque3
+public class ArrayDeque_3C
 {
     public static void main(String arg[])
     {

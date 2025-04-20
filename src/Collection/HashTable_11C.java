@@ -8,7 +8,7 @@ public class HashTable_11C
     public static void main(String arg[])
     {
         Hashtable ht= new Hashtable<>();
-        // This HashTable is a legacy class which is not recomended to use now
+        // This HashTable is a legacy class(obsolete class) which is not recommended to use now
         ht.put(1,"A");
         ht.put(2,"B");
         ht.put(3,"C");

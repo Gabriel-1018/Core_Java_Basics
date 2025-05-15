@@ -54,8 +54,9 @@ public class StreamFlatmapoperation_3S
         //using flatmap
         String b[]= {"Easy", "Bytes"};
         Stream<String> s1= Arrays.stream(b);//Creation of Stream
+
         Stream<String[]> c1=s1.map(n->n.split(""));//Intermediate operation1, c1 steam will have 2 different Arrays.
-        Stream<String>c2=c1.flatMap(Arrays::stream);//Intermediate operation2
+        Stream<String>c2 = c1.flatMap(Arrays::stream);//Intermediate operation2
         //This line would "flatten" the stream of arrays into a stream of individual strings.
         //So Stream<String[]> becomes Stream<String>:
         //Flattened: ["E", "a", "s", "y", "B", "y", "t", "e", "s"]
@@ -68,14 +69,15 @@ public class StreamFlatmapoperation_3S
 
 
         List<person> persons = Arrays.asList(new person("Jessi",Arrays.asList("23253656","89678586")),new person("Alice",Arrays.asList("878686","24234532")));
-        Stream<person> sp=persons.stream();// creation of stream
+        Stream<person> sp = persons.stream();// creation of stream
 
         List<List<String>> ls1= sp.map(person::getPhonenumebrs).//intermediate operation and storing in list
         collect(Collectors.toList());//terminal operation
         System.out.println(ls1);//here the output  will be list of list having the phone numbers
 
-        List<String> ls2= persons.stream().flatMap(n->n.getPhonenumebrs().stream()).collect(Collectors.toList());//intermediate operation
+        List<String> ls2 = persons.stream().flatMap(n->n.getPhonenumebrs().stream()).collect(Collectors.toList());//intermediate operation
         System.out.println(ls2);//Output will have the single list with all phone numbers, that is the benifit of using the flat map
+
 
 
     }
